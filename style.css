@@ -1,0 +1,334 @@
+body{
+	background-color: #ebd9c0;
+}
+/*pyramid elements */
+.pyramid{
+	width: 1000px;
+	position: relative;
+	top: 80px;
+	left: 850px;
+}
+.section1{
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 150px solid #c44d4d;
+	width: 0;
+	height: 0;
+	position: relative;
+}
+.section1:hover{
+	border-bottom: 150px solid #f55f5f;
+}
+.section1:hover > .topminus{
+	display:block;
+}
+.section1:hover > .topplus{
+	display:block;
+}
+
+.section2{
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 120px solid #d48244;
+	width: 210px;
+	position: relative;;
+	top: 10px;
+	right: 85px;
+}
+.section2:hover{
+	border-bottom: 120px solid #fc9c53;
+}
+.section2:hover > .minus{
+	display:block;
+}
+.section2:hover > .plus{
+	display:block;
+}
+
+.section3{
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 120px solid #d4ab44;
+	width: 380px;
+	position: relative;
+	top: 20px;
+	right: 170px;
+}
+.section3:hover{
+	border-bottom: 120px solid #faca52;
+}
+.section3:hover > .minus{
+	display:block;
+}
+.section3:hover > .plus{
+	display:block;
+}
+
+.section4{
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 120px solid #588cd1;
+	width: 540px;
+	position: relative;
+	top: 20px;
+	right: 250px;
+}
+.section4:hover{
+	border-bottom: 120px solid #4f9bff;
+}
+.section4:hover > .minus{
+	display:block;
+}
+.section4:hover > .plus{
+	display:block;
+}
+
+.section5{
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 120px solid #8a5d50;
+	width: 700px;
+	position: relative;
+	top: 20px;
+	right: 330px;
+}
+.section5:hover{
+	border-bottom: 120px solid #b87251;
+}
+.section5:hover > .minus{
+	display:block;
+}
+.section5:hover > .plus{
+	display:block;
+}
+
+.section6{
+	border-right: 80px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 120px solid #68a865;
+	width: 860px;
+	position: relative;
+	top: 20px;
+	right: 410px;
+}
+.section6:hover{
+	border-bottom: 120px solid #67c76a;
+}
+.section6:hover > .minus{
+	display:block;
+}
+.section6:hover > .plus{
+	display:block;
+}
+/*counter buttons in pyramid*/
+#number1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 40px;
+	left: -35px;
+	width: 50px;
+	padding: 5px 10px 5px 10px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+	text-align: center;
+}
+#number2{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	width: 50px;
+	padding: 15px 20px 15px 20px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+	text-align: center;
+}
+#number3{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 145px;
+	width: 50px;
+	padding: 15px 20px 15px 20px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+	text-align: center;
+}
+#number4{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 225px;
+	width: 50px;
+	padding: 15px 20px 15px 20px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+	text-align: center;
+}
+#number5{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 305px;
+	width: 50px;
+	padding: 15px 20px 15px 20px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+	text-align: center;
+}
+#number6{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 385px;
+	width: 50px;
+	padding: 15px 20px 15px 20px;
+	background-color: rgb(66, 66, 66, 0.6);
+	border-radius: 100px;
+}
+
+.topminus{
+	display: none;
+	cursor: pointer;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+}
+.topplus{
+	display: none;
+	cursor: pointer;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+	left: 20px;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+}
+.minus{
+	display: none;
+	cursor: pointer;
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 70px;
+	position: absolute;
+	top: 20px;
+	left: -15px;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+}
+.plus{
+	display: none;
+	cursor: pointer;
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 70px;
+	position: absolute;
+	top: 20px;
+	right: -10px;
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+}
+/*elements outside pyramid*/
+.heading{
+    color: #a11f1f;
+	font-size: 80px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	left: 75px;
+}
+.date{
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 50px 15px 50px;
+	position: absolute;
+	bottom: 40px;
+	left: 820px;
+	background-color: rgb(186, 37, 37,0.8);
+	border-radius: 25px;
+	border: none;
+}
+#datetext{
+    display: block;
+    color: rgb(186, 37, 37);
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	left: 890px;
+
+}
+#error{
+    display: block;
+	color: red;
+	font-size: 30px;
+	position: absolute;
+	bottom: 20px;
+	left: 1100px;
+}
+.selecttext{
+	color: #383636;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Helvetica";
+	position: absolute;
+	top: 420px;
+	left: 255px;
+}
+.button1{
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 50px 15px 50px;
+	position: absolute;
+	top: 500px;
+	left: 185px;
+	background-color: rgb(186, 37, 37,0.8);
+	border-radius: 25px;
+	border: none;
+}
+.button2{
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 50px 15px 50px;
+	position: absolute;
+	top: 500px;
+	left: 335px;
+	background-color: rgb(186, 37, 37,0.8);
+	border-radius: 25px;
+	border: none;
+}

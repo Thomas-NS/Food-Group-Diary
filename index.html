@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Interactive Food Pyramid </title>
+<link href = "style.css" rel = "stylesheet">
+</head>
+
+<pre class = "heading">Food Pyramid
+     Tracker </pre>
+
+<input type = "date" class = "date" id = "date" onchange = "validateDate()">
+<p id = "datetext"></p>
+<p id = "error"></p>
+
+<p class = "selecttext"> Select Age </p>
+<button class = "button1" id = "b1" onclick = "underfour()"> 1-4 </button>
+<button class = "button2" id = "b2" onclick = "overfour()"> 5+ </button>
+<p id = "demo"></p>
+<body>
+<div class = "pyramid">
+<div class = "section1">
+<button class = "topminus" onclick = "minus1()">&#8722;</button>
+<div id = "number1"></div>
+<button class = "topplus" onclick = "plus1()">&#43;</button>
+</div>
+
+<div class = "section2">
+<button class = "minus" onclick = "minus2()">&#8722;</button>
+<div id = "number2"></div>
+<button class = "plus" onclick = "plus2()">&#43;</button>
+</div>
+
+<div class = "section3">
+<button class = "minus" onclick = "minus3()">&#8722;</button>
+<div id = "number3"></div>
+<button class = "plus" onclick = "plus3()">&#43;</button>
+</div>
+
+<div class = "section4">
+<button class = "minus" onclick = "minus4()">&#8722;</button>
+<div id = "number4"></div>
+<button class = "plus" onclick = "plus4()">&#43;</button>
+</div>
+
+<div class = "section5">
+<button class = "minus" onclick = "minus5()">&#8722;</button>
+<div id = "number5"></div>
+<button class = "plus" onclick = "plus5()">&#43;</button>
+</div>
+
+<div class = "section6">
+<button class = "minus" onclick = "minus6()">&#8722;</button>
+<div id = "number6"></div>
+<button class = "plus" onclick = "plus6()">&#43;</button>
+</div>
+</div>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
